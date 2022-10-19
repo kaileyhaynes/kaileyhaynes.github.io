@@ -1,0 +1,61 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: pink;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+    position: sticky;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration-line: none;
+    font-style: italic;
+}
+
+a:active, a:hover {
+    color: #9C284B;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 5px dotted pink;
+    margin-top: 40px;
+}
+
+.navContainer {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.me, .code, .moreCode {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 50px;
+    height: 500px;
+}
+
+.me, .code {
+    border-bottom: 5px dotted pink;
+}
+
+.meContainer {
+    text-align: center;
+    justify-items: center;
+}
