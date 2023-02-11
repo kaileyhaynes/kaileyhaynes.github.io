@@ -1,0 +1,36 @@
+.About {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    margin: 20px 0px;
+    color: white;
+}
+
+.info {
+    justify-content: right;
+}
+
+.photos img {
+    height: 350px;
+    width: 350px;
+    margin: 20px 0px;
+}
+
+#leftTilt {
+    transform: rotate(-3deg);
+}
+
+#rightTilt {
+    transform: rotate(3deg);
+}
+
+.About h3 {
+    font-family: Georgia;
+    letter-spacing: 3px;
+    color: #FD6C9E;
+}
+
+p {
+    margin-bottom: 100px;
+    padding: 0px 15px;
+}

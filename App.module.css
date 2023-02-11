@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  background-color: #15191d;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #15191d;
+  color: #FD6C9E;
+  margin: 0;
+  padding: 0px 25px;
+
+  /*
+  animation: navAnimation 0s 5s forwards;
+  opacity: 0%;
+  */
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-self: center;
+}
+
+.nav_link {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 18px;
+  padding: 6px 24px;
+  font-size: 18px;
+}
+
+.nav_link:hover {
+  color: #FD6C9E;
+}
+
+.thatsMyName {
+  font-family: Georgia;
+  letter-spacing: 5px;
+}
+
+/*
+@keyframes navAnimation {
+  to {
+      opacity: 100%;
+      transition: opacity 1ms;
+  }
+}
+*/
