@@ -1,0 +1,14 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+  
+video {
+   min-width: 100%;
+   margin: 20px 0px;
+}
+  
+img {
+    width: 30px;
+    height: 30px;
+}
